@@ -1,0 +1,16 @@
+.portfolio-header-right-section button{
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+  right: 100%;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: 20px;
+  line-height: 24px;
+  margin-top: 10px;
+}

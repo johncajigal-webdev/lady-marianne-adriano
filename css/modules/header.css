@@ -1,0 +1,141 @@
+.portfolio-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;;
+  padding: 1vh 2vw 0vh 2vw;
+  white-space: nowrap;
+  background-color: hsl(36,100%,99.02%);
+}
+
+.portfolio-header-left-section a{
+  color: hsl(40.13,97.56%,67.84%);
+  text-decoration: none;
+  font-weight: 700;  
+}
+
+.portfolio-header-left-section p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-left: 2vw;
+}
+
+  .portfolio-header-right-section{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding-right: 1.5vw;
+    
+  }
+
+
+  .portfolio-header-right-section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    
+    
+  }
+
+  .portfolio-header-right-section li{
+  padding-right: 1rem;
+  padding-left: 1rem;  
+  cursor: pointer;
+  
+
+  }
+
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  
+  li a {
+    display: block;
+    position: sticky;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-bottom: -20px;
+    
+    
+  }
+  
+
+  
+  
+
+@media (max-width: 768px) {
+
+  .portfolio-header{
+    display: inline-block;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    white-space: nowrap;
+    margin: auto;
+ 
+  }
+
+  .portfolio-header-left-section{
+    height: 3vh;
+    padding: 0;
+  }
+  
+  .portfolio-header-left-section a{
+    color: hsl(40.13,97.56%,67.84%);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    justify-self: center;
+    padding: 0;
+  
+  }
+  
+  .portfolio-header-left-section p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    align-self: center;
+    padding: 0;
+
+   
+  }
+
+
+.portfolio-header-right-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+.portfolio-header-right-section ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+ 
+  padding: 0;
+  
+}
+
+.portfolio-header-right-section li{
+padding-right: 1rem;
+padding-left: 1rem;  
+
+
+}
+}
+
+
+
+

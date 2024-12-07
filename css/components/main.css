@@ -1,0 +1,712 @@
+body {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+main{ /* MAIN DONT TOUCH */
+  display:grid;
+  grid-template-rows: repeat(auto-fit,1fr);
+  max-width: 1200px;  
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* SECTION 1 */
+.aboutme{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  padding-left: 1rem;
+  background-color: hsl(36,100%,99.02%);
+}
+
+
+.aboutme-briefintro{
+  padding: 0px 70px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: start;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: hsl(40.13,97.56%,67.84%);
+  background-color: hsl(36,100%,99.02%);
+}
+
+
+.intro-bio{
+  display: block;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 1.6rem;
+  padding-left: 5vw;
+  
+}
+
+
+.name{
+  display: block;
+  text-align: start;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: 100;
+  color: rgb(81, 81, 81);
+  font-weight: 400;
+
+  }
+
+.aboutme-img{
+  margin: auto;
+  
+  
+}
+
+.aboutme-img img{
+  min-width: 30vw;
+  max-width: 50vw;
+  max-height: 60vh;
+  min-height: 40vh;
+  object-fit: contain;
+  padding-right: 10vw;
+}
+
+
+/* SECTION 2 */
+
+
+.aboutbook{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  padding-left: 1rem;
+  background-color: hsl(36,100%,99.02%);
+}
+
+.aboutbook-img{
+  margin: auto;
+  
+  
+}
+
+.aboutbook-img img{
+  min-width: 30vw;
+  max-width: 50vw;
+  max-height: 60vh;
+  min-height: 40vh;
+  object-fit: contain;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.main-aboutbook-briefintro{
+  padding: 20px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+
+  justify-items: center;
+  align-items: center;
+  font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsl(40.13,97.56%,67.84%);
+}
+
+.title{
+display: block;
+}
+
+.title p, span{
+  font-size: 3rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.intro-book{
+  display: block;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 1.5rem;
+  
+}
+
+.intro-book p{
+ color: hsl(39, 100%, 7%);
+}
+
+.title-highlight {
+  color: hsl(193.85,39.39%,45.29%);
+}
+
+
+
+/* SECTION 3 */
+.quote-section{
+  display:block;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background-color: hsl(36,100%,99.02%);
+  margin: auto;
+  text-align: center;
+}
+
+.main-img{
+  display: flex;
+  padding: 5% 2% 5% 0%;
+
+  
+  justify-content: center;
+  gap: 10px;
+  
+  
+  
+}
+.main-img img{
+  max-width: 300px;
+  min-height: 300px;
+  
+  border-radius: .5rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  
+}
+.main-the-quote{
+  padding: 20px 50px 20px 50px;
+  display: block;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsl(40.13,97.56%,67.84%);
+}
+
+.the-quote{
+  display: block;
+  
+}
+
+.the-quote p{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Open Sans", serif;
+}
+
+
+
+
+
+/* SECTION 4 */
+.follow-section{
+  display:flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background-color: hsl(36,100%,99.02%);
+  margin: auto;
+  text-align: center;
+}
+
+.follow-img{
+  padding: 5% 2% 5% 0%;
+  
+}
+.follow-img img{
+
+  min-height: 10vh;
+  max-height: 20vh;
+  border-radius: .5rem;
+  padding: 10px;
+  object-fit: cover;
+  display:inline-block;
+}
+.main-the-quote{
+  padding: 20px 50px 0px 50px;
+  display: block;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsl(40.13,97.56%,67.84%);
+    margin-top: -50px;
+}
+
+.the-quote{
+  display: block;
+}
+
+
+.title-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.title-line h2 {
+  margin: 0; 
+  padding: 10px 10px; 
+  color: hsl(193.85,39.39%,45.29%);  
+}
+
+
+/* review */
+
+.review-container {
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+  margin-top: -30px;
+
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.review-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.namereview {
+  display: block;
+  text-align: start;
+  line-height: 1;
+  color: rgb(76, 76, 76);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.stars img {
+  width: 15px;
+  height: 15px;
+  
+  margin-right: 3px;
+}
+
+.comment {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  
+}
+
+
+
+/*linkkkk*/
+
+.followus {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.followus h1{
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+  color: rgb(48, 48, 48);
+}
+
+
+.links {
+  display: inline-block;
+  padding: 20px;
+}
+
+
+.links a i {
+  font-size: 2.5rem;
+  margin: auto; 
+  
+}
+
+.links a {
+  display: inline-block;
+  margin: auto;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  
+}
+
+
+/* mobile */ 
+
+@media (max-width: 768px) {
+  main { 
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    max-width: 100%;
+    padding: 0vh 10vw;
+  }
+
+  /* SECTION 1 */
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 0;
+    padding-left: 0;
+ 
+  }
+
+  .aboutme-briefintro {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+    font-size: 0.6rem;
+    line-height: 1rem;
+    color: hsl(40.13, 97.56%, 67.84%);
+    background-color: hsl(36, 100%, 99.02%);
+   
+  }
+
+  .name {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.1;
+    font-weight: 600;
+    color: rgb(81, 81, 81);
+
+  }
+
+  .intro-bio {
+    display: block;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: 5vw;
+  }
+
+  .intro-bio p {
+    font-size: 1.4rem;
+  }
+
+  .aboutme-img img {
+    max-width: 90vw; 
+    max-height: 40vh;
+    object-fit: contain;
+    min-width: 30vw;
+    min-height: 40vh;
+   padding-left: 10vw;
+  
+  }
+
+
+  .aboutme-img {
+    text-align: center;
+  
+  }
+
+
+  /* SECTION 2 */
+  .aboutbook {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(36, 100%, 99.02%);
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .aboutbook-img {
+    margin: auto;
+
+  }
+
+  .aboutbook-img img {
+    min-width: 30vw;
+    max-width: 50vw;
+    max-height: 60vh;
+    min-height: 40vh;
+    object-fit: contain;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  .main-aboutbook-briefintro {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+    font-size: 1.125rem;
+  }
+
+  .title {
+    display: block;
+    text-align: center;
+  
+  }
+
+  .title p, span {
+    font-size: 1.3rem;
+    line-height: 1;
+    font-weight: 600;
+  }
+
+  .intro-book {
+    display: block;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: justify;
+   
+  }
+
+  .intro-book p {
+    color: hsl(39, 100%, 7%);
+    
+  }
+
+  .title-highlight {
+    color: hsl(193.85, 39.39%, 45.29%);
+  }
+
+  /* SECTION 3 */
+  .quote-section {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    background-color: hsl(36, 100%, 99.02%);
+    margin: auto;
+    text-align: center;
+  }
+
+  .main-img {
+    display: flex; 
+    justify-content: center; 
+    gap: 5px; 
+    width: 100%; 
+  
+  }
+
+  .main-img img {
+    max-width: 100%; 
+    overflow: hidden;
+    height: auto;
+    min-height: 90px; 
+    border-radius: 0.5rem;
+    object-fit: cover;
+    
+  }
+
+  .main-the-quote {
+    padding: 20px 20px 20px 20px;
+    display: block;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: hsl(40.13, 97.56%, 67.84%);
+  }
+
+  .the-quote {
+    display: block;
+   
+ 
+  }
+
+  .the-quote p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  
+    font-weight: 300;
+   
+    padding-left: -5vw;
+    font-family: "Open Sans", serif;
+  }
+
+  .verse{
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .verse-title{
+    font-size: 1.2rem;
+    line-height: 1.3;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Open Sans", serif;
+    color: hsl(40, 82%, 64%);
+  }
+
+  /* SECTION 4 */
+  .follow-section {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    background-color: hsl(36, 100%, 99.02%);
+    margin: auto;
+    text-align: center;
+  }
+
+  .follow-img {
+    padding: 5% 0% 5% 0%;
+  }
+
+  .follow-img img {
+    min-height: 10vh;
+    max-height: 20vh;
+    border-radius: .5rem;
+    padding: 10px;
+    object-fit: cover;
+    display: inline-block;
+  }
+
+  .main-the-quote {
+    padding: 20px 50px 20px 50px;
+    display: block;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsl(40.13, 97.56%, 67.84%);
+  }
+
+  .the-quote {
+    display: block;
+  }
+
+  .title-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .title-line h2 {
+    font-size: 1rem;
+    margin: 0; 
+    padding: 10px 10px; 
+  }
+
+
+.review-container {
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+  
+
+
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.review-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.namereview {
+  display: block;
+  line-height: 1;
+  color: rgb(76, 76, 76);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.stars img {
+  width: 15px;
+  height: 15px;
+  
+  margin-right: 3px;
+}
+
+.comment {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  
+} 
+
+
+.followus {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+.followus h1{
+  font-size: 1rem;
+  margin-bottom: -1rem;
+  color: rgb(47, 47, 47);
+}
+
+
+.links {
+  display: inline-block;
+  padding: 20px;
+}
+
+.links a i {
+  font-size: 2rem;
+  margin: auto; 
+}
+}
